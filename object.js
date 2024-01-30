@@ -9,6 +9,6 @@ var student={
    student.age=22;
    console.log(student.age);
 
-   // we can also change the vlaue of element 
+   // we can also change the vlaue of element also
   student.all_rounder=false;
   console.log(student.all_rounder);
