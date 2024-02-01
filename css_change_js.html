@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #btn{
+            color: pink;
+            background-color: red;
+            font-size: 18px;
+            padding: 9px;
+            
+        }
+
+        .para{
+            color: green;
+            font-size: medium;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: pink;
+            padding: 9px;
+        }
+
+    </style>
+</head>
+<body>
+    <button id="btn">
+        click me
+
+    </button>
+
+    <p class="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi hic sequi quo, natus minima placeat delectus ipsa ab maxime quae exercitationem distinctio beatae blanditiis amet cumque itaque soluta modi optio!</p>
+   <script> let btn = document.getElementById("btn");
+
+           btn.style.color="black";
+           btn.style.backgroundColor="green";
+
+           let btc = document.getElementsByClassName("para")[0];
+           btc.style.backgroundColor="yellow";
+           btc.style.padding="200px";
+        
+</script>
+</body>
+</html>
