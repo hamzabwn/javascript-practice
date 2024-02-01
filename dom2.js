@@ -6,4 +6,4 @@ console.log("hellow");
 
 var link = document.getElementById("123");
 console.log(link.textContent); // output show click me!
-console.log(link.innerHTML);
+console.log(link.innerHTML); // will show inner content with tags
